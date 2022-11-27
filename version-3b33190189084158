@@ -1,0 +1,101 @@
+//Dumped with Te1amon's Address Dumper
+//Will be adding more addys soon
+
+static constexpr std::uintptr_t lua_createtable = 0x018ADBE0;
+#define lua_createtable __cdecl
+
+static constexpr std::uintptr_t lua_pushstring = 0x018AC6A0;
+#define lua_pushstring __stdcall
+
+static constexpr std::uintptr_t lua_setfield = 0x018AB9D0;
+#define lua_setfield __stdcall
+
+static constexpr std::uintptr_t lua_pushlstring = 0x018AB9D0;
+#define lua_pushlstring __stdcall
+
+static constexpr std::uintptr_t lua_pushvalue = 0x018AC960;
+#define lua_pushvalue __cdecl
+
+static constexpr std::uintptr_t lua_settable = 0x018AB9D0;
+#define lua_settable __stdcall
+
+static constexpr std::uintptr_t lua_setmetatable = 0x018AB690;
+#define lua_setmetatable __stdcall
+
+static constexpr std::uintptr_t lua_replace = 0x018AC960;
+#define lua_replace __cdecl
+
+static constexpr std::uintptr_t lua_getfield = 0x018AAC00;
+#define lua_getfield __stdcall
+
+static constexpr std::uintptr_t lua_settop = 0x018AD280;
+#define lua_settop __cdecl
+
+static constexpr std::uintptr_t lua_remove = 0x018AC6A0;
+#define lua_remove __stdcall
+
+static constexpr std::uintptr_t lua_insert = 0x018AC400;
+#define lua_insert __cdecl
+
+static constexpr std::uintptr_t index2adr = 0x018AB690;
+#define index2adr __stdcall
+
+static constexpr std::uintptr_t lua_pushcclosure = 0x018AC6A0;
+#define lua_pushcclosure __stdcall
+
+static constexpr std::uintptr_t lua_call = 0x018AA700;
+#define lua_call __cdecl
+
+static constexpr std::uintptr_t lua_close = 0x018AA820;
+#define lua_close __cdecl
+
+static constexpr std::uintptr_t lua_rawget = 0x018ADC40;
+#define lua_rawget __cdecl
+
+static constexpr std::uintptr_t lua_rawgeti = 0x018ADD00;
+#define lua_rawgeti __cdecl
+
+static constexpr std::uintptr_t lua_rawset = 0x018ADD70;
+#define lua_rawset __cdecl
+
+static constexpr std::uintptr_t lua_rawseti = 0x018ADE10;
+#define lua_rawseti __cdecl
+
+static constexpr std::uintptr_t lua_pushlightuserdata = 0x018AD8C0;
+#define lua_pushlightuserdata __cdecl
+
+static constexpr std::uintptr_t lua_pushnil = 0x018AD930;
+#define lua_pushnil __cdecl
+
+static constexpr std::uintptr_t lua_pushnumber = 0x018AD960;
+#define lua_pushnumber __cdecl
+
+static constexpr std::uintptr_t lua_pushthread = 0x018AD9C0;
+#define lua_pushthread __cdecl
+
+static constexpr std::uintptr_t lua_newthread = 0x018AC130;
+#define lua_newthread __cdecl
+
+static constexpr std::uintptr_t lua_newuserdata = 0x018AC220;
+#define lua_newuserdata __cdecl
+
+static constexpr std::uintptr_t lua_next = 0x018AC2F0;
+#define lua_next __cdecl
+
+static constexpr std::uintptr_t lua_objlen = 0x018AC400;
+#define lua_objlen __cdecl
+
+static constexpr std::uintptr_t lua_pcall = 0x018AC4A0;
+#define lua_pcall __cdecl
+
+static constexpr std::uintptr_t lua_pushboolean = 0x018AC5D0;
+#define lua_pushboolean __cdecl
+
+static constexpr std::uintptr_t lua_resume = 0x018ABAC0;
+#define lua_resume __cdecl
+
+static constexpr std::uintptr_t lua_setreadonly = 0x018ABD80;
+#define lua_setreadonly __cdecl
+
+static constexpr std::uintptr_t print_addr = 0x0089E710;
+#define print_addr __stdcall
