@@ -1,11 +1,8 @@
-//Dumped with Te1amon's Address Dumper
-//Will be adding more addys soon
+// Dumped with Te1amon's Address Dumper
+// NOTE: The addresses dumped here are non-aslr addresses.
 
 static constexpr std::uintptr_t lua_createtable = 0x018ADBE0;
 #define lua_createtable __cdecl
-
-static constexpr std::uintptr_t luau_deserialize = 0xffd20000; // have to manually add this lol
-#define luau_deserialize __cdecl
 
 static constexpr std::uintptr_t lua_pushstring = 0x018AC6A0;
 #define lua_pushstring __stdcall
@@ -100,5 +97,5 @@ static constexpr std::uintptr_t lua_resume = 0x018ABAC0;
 static constexpr std::uintptr_t lua_setreadonly = 0x018ABD80;
 #define lua_setreadonly __cdecl
 
-static constexpr std::uintptr_t print_addr = 0x0089E710;
-#define print_addr __stdcall
+static constexpr std::uintptr_t print_addr = 0x0095E710;
+#define print_addr __cdecl
