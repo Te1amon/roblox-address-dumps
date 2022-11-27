@@ -99,3 +99,33 @@ static constexpr std::uintptr_t lua_setreadonly = 0x018ABD80;
 
 static constexpr std::uintptr_t print_addr = 0x0095E710;
 #define print_addr __cdecl
+
+// Other Addresses
+// These Addresses were dumped with another memory dumper of mine (this dumper uses another method of dumping and results may be different)
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// lua_newthread: 0xb4b670
+// lua_pushboolean: 0x18ab640
+// lua_type: 0x18ad280
+// lua_getfield: 0x18abee0
+// lua_setfield: 0x18ac6a0
+// lua_pushinteger: 0x18ab800
+// lua_createtable: 0x18aa820
+// lua_pushnil: 0x18ab930
+// lua_settop: 0x18aca00
+// lua_tointeger: 0x18acc50
+// lua_isnumber: 0x18ab190
+// lua_toboolean: 0x18acbe0
+// lua_topointer: 0xe4efe8c2
+// lua_pushnumber: 0x1c498bc
+// lua_rawgeti: 0xadc3e0
+// luaS_newlstr: 0x3c8deb98
+// luaV_gettable: 0x18ad520
+// luaL_optlstring: 0x18adc90
+// luaL_addlstring: 0x18ad660
+// luaL_ref: 0x18ac2f0
+// luaL_checkoption: 0x18ad8f0
+// luaL_checklstring: 0x18ad890
+// lua_gettop: 0x18aaee0
+// deserializer: 0xff520000
+// index2adr: 0x18baac0
+// luaF_newproto: 0xff520000
