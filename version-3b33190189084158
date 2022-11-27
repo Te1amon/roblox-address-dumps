@@ -4,8 +4,8 @@
 static constexpr std::uintptr_t lua_createtable = 0x018ADBE0;
 #define lua_createtable __cdecl
 
-static constexpr std::uintptr_t deserializer = 0xffd20000;
-#define deserializer __cdecl
+static constexpr std::uintptr_t luau_deserialize = 0xffd20000; // have to manually add this lol
+#define luau_deserialize __cdecl
 
 static constexpr std::uintptr_t lua_pushstring = 0x018AC6A0;
 #define lua_pushstring __stdcall
