@@ -1,6 +1,5 @@
 // Dumped with Te1amon's Address Dumper
-//NOTE: The addresses dumped here are non-aslr addresses.
-
+// NOTE: The addresses dumped here are non-aslr addresses.
 static constexpr std::uintptr_t lua_createtable = 0x018ADBE0;
 #define lua_createtable __cdecl
 
@@ -102,3 +101,6 @@ static constexpr std::uintptr_t print_addr = 0x0095E710;
 
 static constexpr std::uintptr_t walkspeed_addr = 0x00ACA7B0;
 #define walkspeed_addr __stdcall
+
+static constexpr std::uintptr_t luat_typenames = 0x018C8ED0;
+#define luat_typenames __cdecl
