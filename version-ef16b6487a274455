@@ -1,5 +1,3 @@
-// roblox why is everything in __fastcall lamo you have explaining to do
-
 // Dumped with Te1amon's Address Dumper
 // NOTE: The addresses dumped here are non-aslr addresses.
 
@@ -107,3 +105,6 @@ static constexpr std::uintptr_t walkspeed_addr = 0x00A49920;
 
 static constexpr std::uintptr_t luat_typenames = 0x017E8810;
 #define luat_typenames __cdecl
+
+static constexpr std::uintptr_t lua_spawn = 0x01A755A0;
+#define lua_spawn __cdecl
