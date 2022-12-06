@@ -15,8 +15,8 @@ static constexpr std::uintptr_t spawn_addr = 0x38622624;
 static constexpr std::uintptr_t lua_gettop_addr = 0x20077808;
 #define lua_gettop_CCV __cdecl
 
-static constexpr std::uintptr_t lua_deserialize_addr = 0x4284088320;
-#define lua_deserialize_CCV __cdecl
+static constexpr std::uintptr_t luau_deserialize_addr = 0x4284088320;
+#define luau_deserialize_CCV __cdecl
 
 
 // 6 addresses found.
