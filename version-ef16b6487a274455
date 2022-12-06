@@ -1,131 +1,23 @@
-// Note: I am remaking the dumper so expect this to change soon
-
 // Dumped with Te1amon's Address Dumper
-// If any of these addresses are inaccurate let me know, discord is Te1amon#2533
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_createtable_addr = 0x018343A0;
-#define lua_createtable_CCV __thiscall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushstring_addr = 0x0186B270;
-#define lua_pushstring_CCV __thiscall
-
-static constexpr std::uintptr_t lua_setfield_addr = 0x0186B380;
-#define lua_setfield_CCV __thiscall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushlstring_addr = 0x0186B5C0;
-#define lua_pushlstring_CCV __cdecl
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushvalue_addr = 0x0186B480;
-#define lua_pushvalue_CCV __fastcall
-
-static constexpr std::uintptr_t lua_settable_addr = 0x0186B270;
-#define lua_settable_CCV __thiscall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_setmetatable_addr = 0x0186B380;
-#define lua_setmetatable_CCV __thiscall
-
-static constexpr std::uintptr_t lua_replace_addr = 0x0186B530;
-#define lua_replace_CCV __fastcall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_getfield_addr = 0x0186B480;
-#define lua_getfield_CCV __fastcall
-
-static constexpr std::uintptr_t lua_settop_addr = 0x0186B270;
-#define lua_settop_CCV __thiscall
-
-static constexpr std::uintptr_t lua_remove_addr = 0x018350E0;
-#define lua_remove_CCV __cdecl
-
-static constexpr std::uintptr_t lua_insert_addr = 0x01868BC0;
-#define lua_insert_CCV __fastcall
-
-static constexpr std::uintptr_t index2adr_addr = 0x017F3C30;
-#define index2adr_CCV __fastcall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushcclosure_addr = 0x0186B480;
-#define lua_pushcclosure_CCV __fastcall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_call_addr = 0x0186A710;
-#define lua_call_CCV __thiscall
-
-static constexpr std::uintptr_t lua_close_addr = 0x0186AF20;
-#define lua_close_CCV __fastcall
-
-static constexpr std::uintptr_t lua_rawget_addr = 0x0186B5C0;
-#define lua_rawget_CCV __cdecl
-
-static constexpr std::uintptr_t lua_rawgeti_addr = 0x0186B730;
-#define lua_rawgeti_CCV __cdecl
-
-static constexpr std::uintptr_t lua_rawset_addr = 0x0186B850;
-#define lua_rawset_CCV __cdecl
-
-static constexpr std::uintptr_t lua_rawseti_addr = 0x0186C040;
-#define lua_rawseti_CCV __cdecl
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushlightuserdata_addr = 0x0186A710;
-#define lua_pushlightuserdata_CCV __thiscall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushnil_addr = 0x0186AF20;
-#define lua_pushnil_CCV __fastcall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushnumber_addr = 0x0186B240;
-#define lua_pushnumber_CCV __thiscall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_pushthread_addr = 0x0186B300;
-#define lua_pushthread_CCV __cdecl
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_newthread_addr = 0x0186AE20;
-#define lua_newthread_CCV __fastcall
-
-static constexpr std::uintptr_t lua_newuserdata_addr = 0x0186AF20;
-#define lua_newuserdata_CCV __fastcall
-
-// This function is protected by retcheck
-static constexpr std::uintptr_t lua_next_addr = 0x0186B240;
-#define lua_next_CCV __thiscall
-
-static constexpr std::uintptr_t lua_objlen_addr = 0x0186B270;
-#define lua_objlen_CCV __thiscall
-
-static constexpr std::uintptr_t lua_pcall_addr = 0x0186B300;
-#define lua_pcall_CCV __cdecl
-
-static constexpr std::uintptr_t lua_pushboolean_addr = 0x0186B380;
-#define lua_pushboolean_CCV __thiscall
-
-static constexpr std::uintptr_t lua_resume_addr = 0x0186B480;
-#define lua_resume_CCV __fastcall
-
-static constexpr std::uintptr_t lua_setreadonly_addr = 0x0186C040;
-#define lua_setreadonly_CCV __cdecl
-
-static constexpr std::uintptr_t print_addr = 0x007A5690;
+// The below addresses have been dumped by scanning for xrefs.
+static constexpr std::uintptr_t print_addr = 0x18896528;
 #define print_CCV __cdecl
 
-static constexpr std::uintptr_t walkspeed_addr = 0x00A49920;
+static constexpr std::uintptr_t walkspeed_addr = 0x21666080;
 #define walkspeed_CCV __stdcall
 
-static constexpr std::uintptr_t luat_typenames_addr = 0x017E8810;
+static constexpr std::uintptr_t luat_typenames_addr = 0x35948560;
 #define luat_typenames_CCV __cdecl
 
-static constexpr std::uintptr_t spawn_addr = 0x01A755A0;
+static constexpr std::uintptr_t spawn_addr = 0x38622624;
 #define spawn_CCV __cdecl
 
-static constexpr std::uintptr_t lua_gettop_addr = 0x008C5CF0;
+static constexpr std::uintptr_t lua_gettop_addr = 0x20077808;
 #define lua_gettop_CCV __cdecl
 
-//thanks to MelonMTRS for https://github.com/MelonMTRS/EyeStep-Reborn
+static constexpr std::uintptr_t lua_deserialize_addr = 0x4284088320;
+#define lua_deserialize_CCV __cdecl
+
+
+// 6 addresses found.
+// thanks to MelonMTRS for https://github.com/MelonMTRS/EyeStep-Reborn
