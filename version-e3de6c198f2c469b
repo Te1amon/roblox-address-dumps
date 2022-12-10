@@ -36,6 +36,6 @@ static constexpr std::uintptr_t lua_gettop_addr = 0x10510432;
 
 // Unable to find deserializer address
 
-// 4 addresses found.
+// 5 addresses found.
 // thanks to MelonMTRS for https://github.com/MelonMTRS/EyeStep-Reborn
 }
