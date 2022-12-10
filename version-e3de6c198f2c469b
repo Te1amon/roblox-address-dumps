@@ -1,0 +1,41 @@
+namespace Addresses {
+// Dumped with Te1amon's Address Dumper
+// NOTE: The below addresses are not raslr based
+
+// [DEBUG] XREF Scanned: Video recording started
+// Protected by retcheck: false
+// Usage (Not 100% Accurate)
+// using r_print_typedef = int(Addresses::print_CCV*)(int a1, int a2, int a3);
+// r_print_typedef r_print = (r_print_typedef)(x(Addresses::print_addr));
+static constexpr std::uintptr_t print_addr = 0x19224816;
+#define print_CCV __cdecl
+
+// [DEBUG] XREF Scanned: WalkSpeed
+static constexpr std::uintptr_t walkspeed_addr = 0x11779536;
+#define walkspeed_CCV __stdcall
+
+// [DEBUG] XREF Scanned: no value
+static constexpr std::uintptr_t luat_typenames_addr = 0x27452672;
+#define luat_typenames_CCV __cdecl
+
+// [DEBUG] XREF Scanned: Spawn function requires 1 argument
+// Protected by retcheck: false
+// Usage (Not 100% Accurate)
+// using r_spawn_typedef = int(Addresses::spawn_CCV*)(int a1);
+// r_spawn_typedef r_spawn = (r_spawn_typedef)(x(Addresses::spawn_addr));
+static constexpr std::uintptr_t spawn_addr = 0x30654224;
+#define spawn_CCV __cdecl
+
+// [DEBUG] XREF Scanned: Argument 3 missing or nil
+// Protected by retcheck: false
+// Usage (Not 100% Accurate)
+// using r_lua_gettop_typedef = int(Addresses::lua_gettop_CCV*)(int a1);
+// r_lua_gettop_typedef r_lua_gettop = (r_lua_gettop_typedef)(x(Addresses::lua_gettop_addr));
+static constexpr std::uintptr_t lua_gettop_addr = 0x10510432;
+#define lua_gettop_CCV __cdecl
+
+// Unable to find deserializer address
+
+// 4 addresses found.
+// thanks to MelonMTRS for https://github.com/MelonMTRS/EyeStep-Reborn
+}
